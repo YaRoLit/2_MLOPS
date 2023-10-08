@@ -1,0 +1,6 @@
+schema: '2.0'
+stages:
+  get-features:
+    cmd: python3 scripts/DATA_SCRIPTS/get_features.py
+  fill-NA:
+    cmd: python3 scripts/DATA_SCRIPTS/fill_NA.py
